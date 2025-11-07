@@ -1,22 +1,25 @@
-<!--
-  README for GitHub profile: Satweek04
-  Animated & Classical Design | Dark Green (#013220) + Black (#000000)
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SVG Glow + Shimmer Text</title>
+  <style>
+    body {
+      background: #0e1a11;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
 
-<div align="center">
-
-<!-- =========================
-     ANIMATED SVG BANNER
-     ========================= -->
-<svg width="100%" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Banner">
-
-  <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0%" stop-color="#013220"/>
-      <stop offset="100%" stop-color="#000000"/>
-    </linearGradient>
-
+  <!-- Invisible defs for filters, gradients, and clips -->
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute">
     <!-- Glow Filter -->
     <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3.5" result="blur"/>
@@ -27,7 +30,7 @@
     </filter>
 
     <!-- Shimmer Gradient -->
-    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#aef2c9" stop-opacity="0.1">
         <animate attributeName="offset" values="-0.5;1.5" dur="6s" repeatCount="indefinite"/>
       </stop>
@@ -46,13 +49,32 @@
       <feBlend in="SourceGraphic" in2="blur" mode="normal"/>
     </filter>
 
-    <!-- Clip Path for Subtitle -->
+    <!-- Clip Path for Subtitle Reveal -->
     <clipPath id="revealClip">
       <rect id="revealRect" x="0" y="-30" width="0" height="60">
         <animate attributeName="width" from="0" to="780" dur="2.5s" begin="0.6s" fill="freeze"/>
       </rect>
     </clipPath>
-  </defs>
+  </svg>
+
+  <!-- Visible SVG Content -->
+  <svg width="800" height="200" viewBox="0 0 800 200">
+    <!-- Main Glowing Text -->
+    <text x="50%" y="45%" text-anchor="middle" font-size="60" font-weight="700"
+          fill="url(#shimmer)" filter="url(#softGlow)" style="letter-spacing:2px;">
+      LUMINOUS DREAMS
+    </text>
+
+    <!-- Subtitle with reveal animation -->
+    <text x="50%" y="75%" text-anchor="middle" font-size="28" fill="#d9ffe7"
+          filter="url(#textShadow)" clip-path="url(#revealClip)">
+      Illuminated by motion and light
+    </text>
+  </svg>
+
+</body>
+</html>
+
 
   <!-- Background -->
   <rect width="1200" height="220" fill="url(#bgGrad)"/>
