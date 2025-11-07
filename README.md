@@ -4,8 +4,6 @@
   Copy this entire file into your repo's README.md
 -->
 
-# <!-- empty H1 to keep GitHub header spacing -->
-
 <!-- =========================
      ANIMATED SVG BANNER
      Pure SVG animations (works in GitHub README)
@@ -13,7 +11,7 @@
 <div align="center">
 
 <svg width="100%" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Banner">
-  <!-- Background -->
+  <!-- Definitions -->
   <defs>
     <linearGradient id="bgGrad" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0%" stop-color="#013220"/>
@@ -32,9 +30,7 @@
     <!-- Shimmer gradient for subtitle -->
     <linearGradient id="shimmer" x1="0" x2="1">
       <stop offset="0%" stop-color="#e6f6ef" stop-opacity="0.12"/>
-      <stop offset="50%" stop-color="#b8f2d6" stop-opacity="0.9">
-        <animate attributeName="offset" values="0%;100%" dur="5s" repeatCount="indefinite"/>
-      </stop>
+      <stop offset="50%" stop-color="#b8f2d6" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#e6f6ef" stop-opacity="0.12"/>
     </linearGradient>
 
@@ -44,6 +40,12 @@
       <feGaussianBlur in="offOut" stdDeviation="3" result="blurOut"/>
       <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
     </filter>
+
+    <!-- Clip path for subtitle reveal -->
+    <clipPath id="revealClip">
+      <!-- width is animated via inner rect -->
+      <rect id="revealRect" x="0" y="-30" width="0" height="60" />
+    </clipPath>
   </defs>
 
   <!-- Main rectangular background -->
@@ -61,8 +63,7 @@
   </rect>
 
   <!-- NAME: slide up + fade in -->
-  <text x="60" y="70" style="font-family: 'Times New Roman', Georgia, serif; font-size:42px; fill:#e6f6ef; letter-spacing:1px; font-weight:700;"
-        opacity="0" filter="url(#textShadow)">
+  <text x="60" y="70" style="font-family: 'Times New Roman', Georgia, serif; font-size:42px; fill:#e6f6ef; letter-spacing:1px; font-weight:700;" opacity="0" filter="url(#textShadow)">
     <tspan>
       <animate attributeName="y" from="110" to="70" dur="0.9s" begin="0.2s" fill="freeze"/>
       <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.2s" fill="freeze"/>
@@ -70,46 +71,41 @@
     </tspan>
   </text>
 
-  <!-- SUBTITLE: subtle shimmer + type-like reveal via clipping -->
+  <!-- SUBTITLE: subtle shimmer + reveal -->
   <g transform="translate(60,94)">
-    <!-- subtitle background (for shimmer clip) -->
-    <rect x="0" y="-24" width="780" height="40" fill="transparent"/>
-    <!-- actual subtitle text -->
-    <text x="0" y="20" style="font-family: Georgia, serif; font-size:20px; fill:url(#shimmer);">
-      <tspan>Aspiring Software Engineer • Full Stack & Frontend Developer</tspan>
-    </text>
-
-    <!-- "Typewriter" reveal mask using animated rect -->
-    <clipPath id="revealClip">
-      <rect x="0" y="-30" width="0" height="60">
-        <animate attributeName="width" from="0" to="780" dur="2.4s" begin="0.6s" fill="freeze"/>
-      </rect>
-    </clipPath>
-
+    <!-- subtitle text visible through clip path -->
     <g clip-path="url(#revealClip)">
       <text x="0" y="20" style="font-family: Georgia, serif; font-size:20px; fill:#e6f6ef;">
         <tspan>Aspiring Software Engineer • Full Stack & Frontend Developer</tspan>
       </text>
+      <!-- shimmer overlay (slightly lighter) -->
+      <text x="0" y="20" style="font-family: Georgia, serif; font-size:20px; fill:url(#shimmer); opacity:0.8;">
+        <tspan>Aspiring Software Engineer • Full Stack & Frontend Developer</tspan>
+      </text>
     </g>
 
-    <!-- subtle caret blink -->
-    <rect x="10" y="-6" width="6" height="18" fill="#e6f6ef" opacity="0">
-      <animate attributeName="opacity" values="0;1;0" dur="1s" begin="2.6s" repeatCount="indefinite"/>
-      <animate attributeName="x" values="10;760" dur="2.4s" begin="0.6s" fill="freeze"/>
-    </rect>
+    <!-- animate the clip rect width (reveal effect) -->
+    <animate xlink:href="#revealRect" attributeName="width" from="0" to="780" dur="2.4s" begin="0.6s" fill="freeze" />
   </g>
 
-  <!-- Small embellishing dots that bounce (classical percussion) -->
+  <!-- subtle caret blink (animated rect that moves with reveal) -->
+  <rect id="caret" x="10" y="-6" width="6" height="18" fill="#e6f6ef" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="1s" begin="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="10;760" dur="2.4s" begin="0.6s" fill="freeze"/>
+    <set attributeName="opacity" to="0" begin="0" />
+  </rect>
+
+  <!-- Small embellishing dots that bounce -->
   <g transform="translate(60,160)">
-    <circle cx="0" cy="0" r="5" fill="#00ff88" opacity="0.0">
+    <circle cx="0" cy="0" r="5" fill="#00ff88" opacity="0">
       <animate attributeName="cy" values="0;-8;0" dur="1.2s" begin="1.1s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;0" dur="1.2s" begin="1.1s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="28" cy="0" r="4" fill="#9fe8c0" opacity="0.0">
+    <circle cx="28" cy="0" r="4" fill="#9fe8c0" opacity="0">
       <animate attributeName="cy" values="0;-10;0" dur="1s" begin="1.3s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;0" dur="1s" begin="1.3s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="52" cy="0" r="3.2" fill="#d6f9ea" opacity="0.0">
+    <circle cx="52" cy="0" r="3.2" fill="#d6f9ea" opacity="0">
       <animate attributeName="cy" values="0;-6;0" dur="1.4s" begin="1.2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;1;0" dur="1.4s" begin="1.2s" repeatCount="indefinite"/>
     </circle>
@@ -144,9 +140,6 @@ I build reliable, maintainable, and efficient web applications with attention to
 
 <!-- Simple inline SVG "skill tokens" with subtle pulse animation -->
 <svg width="760" height="90" viewBox="0 0 760 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="skills">
-  <!-- Background strip -->
-  <rect width="760" height="90" fill="transparent"/>
-
   <!-- Token 1 -->
   <g transform="translate(10,10)">
     <circle cx="36" cy="36" r="28" fill="#001f14">
