@@ -158,5 +158,5 @@ I build efficient, secure, and elegant digital experiences.
 ---
 
 <div align="center">
-  <small style="font-family:'Georgia',serif;color:#9fbfa6;">Designed with ❤️ using Dark Green (#013220) & Black (#000000)</small>
+  <small style="font-family:'Georgia',serif;color:#9fbfa6;">Subham Swateek Panigraphi</small>
 </div>
