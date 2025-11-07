@@ -43,8 +43,8 @@
 ---
 
 ## 🧑‍💻 About Me
-Hi there! I'm **Subham Swateek Panigrahi**, an aspiring **Software Engineer** passionate about **Full Stack Development**, **Data-Driven Design**, and **Elegant Code**.  
-I focus on crafting efficient, scalable, and secure web solutions with modern technologies.
+Hi there! I'm **Subham Swateek Panigrahi**, an aspiring **Software Engineer** with a passion for **Full Stack Development**, **Data-Driven Design**, and **Writing Clean, Efficient Code**.  
+I love transforming complex problems into elegant, user-friendly solutions using modern web technologies.
 
 📍 *Odisha, India*  
 ✉️ *subhamswateek@gmail.com*  
@@ -63,7 +63,7 @@ I focus on crafting efficient, scalable, and secure web solutions with modern te
 
 | Languages | Frameworks / Tools | Concepts |
 |------------|--------------------|-----------|
-| JavaScript, TypeScript, SQL, Java, Python | Node.js, HTML5, CSS3 | DBMS, Algorithms, Security, API Design |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="25"/> JavaScript <br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="25"/> TypeScript <br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="25"/> Java <br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="25"/> Python <br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="25"/> SQL | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="25"/> Node.js <br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="25"/> HTML5 <br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="25"/> CSS3 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/database/database-original.svg" width="25"/> DBMS <br> ⚙️ Algorithms <br> 🔒 Security <br> 🌐 API Design |
 
 </div>
 
@@ -93,7 +93,7 @@ I focus on crafting efficient, scalable, and secure web solutions with modern te
 ## 🧩 Projects
 - **Student’s Performance Tracker** — Full-stack system managing 500+ student records with SQL optimization.
 - **Weather Detector** — Real-time weather app with API integration and responsive design.
-- **Frontend Dashboard** — Created during internship at *Preppright Edutech Pvt. Ltd.*, improving UI/UX efficiency by 40%.
+- **Frontend Dashboard** — Built during an internship at *Preppright Edutech Pvt. Ltd.*, improving UI/UX efficiency by 40%.
 
 ---
 
@@ -104,7 +104,7 @@ I focus on crafting efficient, scalable, and secure web solutions with modern te
 ---
 
 ## 🌱 Currently Working On
-- Enhancing my portfolio with production-grade full-stack apps  
+- Building production-grade full-stack applications  
 - Exploring modern frontend frameworks and API security best practices  
 
 ---
@@ -115,9 +115,3 @@ I focus on crafting efficient, scalable, and secure web solutions with modern te
   <a href="https://github.com/Satweek04"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://www.linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-darkgreen?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
-
----
-
-<div align="center">
-  <small style="font-family:'Georgia',serif;color:#9fbfa6;animation: fadeIn 4s ease-in-out;">Designed with ❤️ in Dark Green (#013220) & Black (#000000)</small>
-</div>
