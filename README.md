@@ -43,23 +43,21 @@ Intermediate – Science *(81%)*
 <div align="center">
 
 <img
-  src="https://github-readme-stats.vercel.app/api?username=Satweek04&show_icons=true&hide_border=true&theme=dark"
-  width="48%"
+  src="https://github-readme-stats.vercel.app/api?username=Satweek04&show_icons=true&theme=dark"
 />
 
 <img
-  src="https://streak-stats.demolab.com?user=Satweek04&hide_border=true&theme=dark"
-  width="48%"
+  src="https://streak-stats.demolab.com?user=Satweek04&theme=dark"
 />
 
 <br/><br/>
 
 <img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satweek04&layout=compact&hide_border=true&theme=dark"
-  width="60%"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satweek04&layout=compact&theme=dark"
 />
 
 </div>
+
 
 ---
 
