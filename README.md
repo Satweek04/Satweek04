@@ -1,94 +1,92 @@
 <div align="center">
 
-<!-- ===== TYPING / RUNNING NAME ===== -->
+<!-- Enhanced Typing SVG with better colors and speed -->
 <img
-  src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=34&duration=3000&pause=800&color=00FF88&center=true&vCenter=true&width=700&lines=Subham+Swateek+Panigrahi;Aspiring+Software+Engineer;Full+Stack+%26+Frontend+Developer"
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=800&lines=Subham+Swateek+Panigrahi;Aspiring+Software+Engineer;Full+Stack+%26+Frontend+Developer;Crafting+Scalable+Apps"
 />
 
-<strong>Clean • Minimal • Professional</strong>
+![Visitor Badge](https://visit-count.itsmevjs.pw/github/Satweek04/visitormessage.svg?color=0&logo=1&block=1&style=for-the-badge)
+
+**🚀 Clean • Modern • Developer-Focused**
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
-Hi 👋 I'm **Subham Swateek Panigrahi**, an aspiring **Software Engineer** with a strong interest in  
-**Full Stack Development**, **Frontend Engineering**, and **Problem Solving**.
+## 👋 About Me
+Passionate **Software Engineer** from **Odisha, India** specializing in **Full Stack Development** and **Frontend Engineering**. I build scalable, user-centric applications with clean, efficient code. Currently pursuing MCA at SOA University (2024–2026). [subhamswateek@gmail.com](mailto:subhamswateek@gmail.com)
 
-I enjoy building scalable applications and writing clean, efficient, and maintainable code.
-
-📍 Odisha, India  
-✉️ subhamswateek@gmail.com  
+Loves solving complex problems through code and staying updated with modern web technologies.
 
 ---
 
-## 🎓 Education
-**SOA University, Bhubaneswar**  
-Master of Computer Applications *(2024 – 2026)*  
+## 🛠️ Skills
+[![My Skills](https://skillicons.dev/icons?i=java,js,ts,py,sql,nodejs,html,css,react,vscode&perline=10)](https://skillicons.dev)
 
-**Sri Aurobindo Science College, Cuttack**  
-Intermediate – Science *(81%)*  
+**Core Expertise:** DBMS, Algorithms, Security, API Design
 
 ---
 
-## 🧠 Skills
-- **Languages:** Java, JavaScript, TypeScript, Python, SQL  
-- **Frameworks & Tools:** Node.js, HTML5, CSS3  
-- **Core Concepts:** DBMS, Algorithms, Security, API Design  
-
----
-
-## 📊 GitHub Statistics
-
+## 📈 GitHub Stats
 <div align="center">
 
-<img
-  src="https://github-readme-stats.vercel.app/api?username=Satweek04&show_icons=true&theme=dark"
-/>
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=Satweek04&show_icons=true&theme=radical&hide_border=true&bg_color=0F0F0F&title_color=00D4FF&icon_color=00D4FF)
 
-<img
-  src="https://streak-stats.demolab.com?user=Satweek04&theme=dark"
-/>
+![GitHub Streak](https://streak-stats.demolab.com?user=Satweek04&theme=radical&hide_border=true&border=00000000&background=0F0F0F&ring=00D4FF&fire=00D4FF&currStreakNum=00D4FF&sideNums=00D4FF&currStreakLabel=00D4FF&sideLabels=00D4FF&dates=00D4FF)
 
-<br/><br/>
-
-<img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Satweek04&layout=compact&theme=dark"
-/>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Satweek04&layout=compact&theme=radical&hide_border=true&bg_color=0F0F0F&title_color=00D4FF&text_color=FFFFFF&lang_color=00D4FF)
 
 </div>
 
+---
+
+## 🔥 Featured Projects
+- **Student Performance Tracker**  
+  Full-stack app managing 500+ records with real-time dashboards and analytics
+  
+- **Weather Detector**  
+  Interactive real-time weather app integrating public APIs for accurate forecasts
+  
+- **Frontend Dashboard**  
+  Optimized UI dashboard from internship, boosting efficiency by 30%
 
 ---
 
-## 🧩 Projects
-- **Student Performance Tracker** — Full-stack system managing 500+ student records  
-- **Weather Detector** — Real-time weather app using public APIs  
-- **Frontend Dashboard** — Internship project improving UI efficiency  
+## 🎓 Education & Certifications
+**SOA University, Bhubaneswar**  
+_Master of Computer Applications (2024–2026)_  
 
----
+**Sri Aurobindo Science College, Cuttack**  
+_Intermediate – Science (67%)_  
 
-## 🪪 Certifications
+**Certifications:**  
 - Python Programming  
-- Cybersecurity Fundamentals  
+- Cybersecurity Fundamentals
 
 ---
 
 ## 🌱 Currently Learning
-- Advanced Full Stack Development  
+- Advanced Full Stack Patterns  
 - API Security & System Design  
+- React Optimization & Next.js
 
 ---
 
-## 🤝 Connect With Me
+## 🔗 Let's Connect
 <p align="center">
   <a href="mailto:subhamswateek@gmail.com">
-    <img src="https://img.shields.io/badge/Email-013220?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-4285F4?style=for-the-badge&logo=gmail&logoColor=white&color=EA4335"/>
   </a>
+  &nbsp;
   <a href="https://github.com/Satweek04">
-    <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <a href="https://www.linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-013220?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/yourprofile">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Satweek04&style=flat-square&color=brightgreen" alt="Profile Views"/>
+</div>
