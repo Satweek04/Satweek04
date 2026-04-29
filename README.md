@@ -1,92 +1,124 @@
-<div align="center">
+<!-- ============================================ -->
+<!-- 🌐 SUBHAM SWATEEK PANIGRAHI | ADVANCED README -->
+<!-- ============================================ -->
 
-<!-- Enhanced Typing SVG with better colors and speed -->
-<img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=800&lines=Subham+Swateek+Panigrahi;Aspiring+Software+Engineer;Full+Stack+%26+Frontend+Developer;Crafting+Scalable+Apps"
-/>
+<!-- Header Animation -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:ff0080&height=220&section=header&text=Subham%20Swateek%20Panigrahi&fontSize=45&fontAlignY=40&animation=twinkling&fontColor=FFFFFF" />
+</p>
 
-![Visitor Badge](https://visit-count.itsmevjs.pw/github/Satweek04/visitormessage.svg?color=0&logo=1&block=1&style=for-the-badge)
+<!-- Typing Animation -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=25&pause=1000&color=00C9FF&center=true&vCenter=true&width=700&lines=Hi+I'm+Subham+Swateek+Panigrahi;Full+Stack+Developer;MCA+Student+%7C+Tech+Enthusiast;Building+Scalable+Applications" />
+</h1>
 
-**🚀 Clean • Modern • Developer-Focused**
-
-</div>
+<p align="center">
+  <a href="https://github.com/Satweek04"><img src="https://img.shields.io/badge/GitHub-Satweek04-181717?style=for-the-badge&logo=github"></a>
+  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail"></a>
+</p>
 
 ---
 
-## 👋 About Me
-Passionate **Software Engineer** from **Odisha, India** specializing in **Full Stack Development** and **Frontend Engineering**. I build scalable, user-centric applications with clean, efficient code. Currently pursuing MCA at SOA University (2024–2026). [subhamswateek@gmail.com](mailto:subhamswateek@gmail.com)
+## 👨‍💻 About Me
 
-Loves solving complex problems through code and staying updated with modern web technologies.
+💡 MCA Student passionate about **Full Stack Development & AI**  
+⚙️ Skilled in building scalable and responsive applications  
+🚀 Focused on clean code, performance, and real-world problem solving  
 
 ---
 
-## 🛠️ Skills
-[![My Skills](https://skillicons.dev/icons?i=java,js,ts,py,sql,nodejs,html,css,react,vscode&perline=10)](https://skillicons.dev)
+# 🧠 Tech Stack
 
-**Core Expertise:** DBMS, Algorithms, Security, API Design
+## 🎨 Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,typescript,react,tailwind,bootstrap" />
+</p>
+
+## ⚙️ Backend
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,java,python,dotnet" />
+</p>
+
+## 🗄️ Database
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
+</p>
+
+## ☁️ Cloud & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,eclipse,linux,docker" />
+</p>
+
+---
+
+## 💼 Experience
+
+**Frontend Web Development Intern**  
+Preppright Edtech Pvt. Ltd. *(Remote)*  
+
+- Built platform for **200+ users**  
+- Implemented authentication & dashboards  
+- Improved UI/UX and performance  
+- Developed weather app using APIs  
+
+---
+
+## 🚀 Projects
+
+### 🌾 Crop Yield Prediction (ML)
+- Built ML model using real datasets  
+- Applied preprocessing & regression techniques  
+- Improved prediction accuracy  
+
+---
+
+### 📊 Student Performance Tracker
+- Full stack app using React + Node + SQL  
+- Managed data for **50+ students**  
+- Improved performance by **15–20%**  
+
+🔗 https://github.com/Satweek04
 
 ---
 
 ## 📈 GitHub Stats
-<div align="center">
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=Satweek04&show_icons=true&theme=radical&hide_border=true&bg_color=0F0F0F&title_color=00D4FF&icon_color=00D4FF)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Satweek04&theme=radical&hide_border=true&border=00000000&background=0F0F0F&ring=00D4FF&fire=00D4FF&currStreakNum=00D4FF&sideNums=00D4FF&currStreakLabel=00D4FF&sideLabels=00D4FF&dates=00D4FF)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Satweek04&layout=compact&theme=radical&hide_border=true&bg_color=0F0F0F&title_color=00D4FF&text_color=FFFFFF&lang_color=00D4FF)
-
-</div>
-
----
-
-## 🔥 Featured Projects
-- **Student Performance Tracker**  
-  Full-stack app managing 500+ records with real-time dashboards and analytics
-  
-- **Weather Detector**  
-  Interactive real-time weather app integrating public APIs for accurate forecasts
-  
-- **Frontend Dashboard**  
-  Optimized UI dashboard from internship, boosting efficiency by 30%
-
----
-
-## 🎓 Education & Certifications
-**SOA University, Bhubaneswar**  
-_Master of Computer Applications (2024–2026)_  
-
-**Sri Aurobindo Science College, Cuttack**  
-_Intermediate – Science (67%)_  
-
-**Certifications:**  
-- Python Programming  
-- Cybersecurity Fundamentals
-
----
-
-## 🌱 Currently Learning
-- Advanced Full Stack Patterns  
-- API Security & System Design  
-- React Optimization & Next.js
-
----
-
-## 🔗 Let's Connect
 <p align="center">
-  <a href="mailto:subhamswateek@gmail.com">
-    <img src="https://img.shields.io/badge/Email-4285F4?style=for-the-badge&logo=gmail&logoColor=white&color=EA4335"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/Satweek04">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/yourprofile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=Satweek04&show_icons=true&theme=tokyonight&hide_border=true" height="160px"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Satweek04&theme=tokyonight&hide_border=true" height="160px"/>
 </p>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Satweek04&style=flat-square&color=brightgreen" alt="Profile Views"/>
-</div>
+---
+
+## 📊 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Satweek04&theme=tokyo-night&hide_border=true"/>
+</p>
+
+---
+
+## 🏆 Certifications
+
+✔ Cisco Cybersecurity  
+✔ Python Essentials 1 & 2  
+✔ HackerRank Problem Solving  
+✔ OCI Generative AI  
+
+---
+
+## 🤝 Connect With Me
+
+<p align="center">
+  <a href="https://github.com/Satweek04"><img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"></a>
+  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail"></a>
+</p>
+
+---
+
+<!-- Footer -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=100&section=footer"/>
+</p>
+
+<h3 align="center">💡 "Building scalable solutions with clean code."</h3>
